@@ -1,0 +1,15 @@
+{
+  "name": "halalflix",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:backend": "cd apps/backend && npm run dev",
+    "dev:frontend": "cd apps/frontend && npx expo start",
+    "db:migrate": "cd apps/backend && npm run migrate",
+    "db:seed": "cd apps/backend && npm run seed"
+  }
+}
