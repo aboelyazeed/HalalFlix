@@ -321,4 +321,4 @@ Run all scripts from the **project root**:
 
 ## License
 
-This project is private and not licensed for public distribution.
+This project is public for educational purposes.
